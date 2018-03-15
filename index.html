@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta author="Mangue Tecnologia">
+	<meta name="keywords" content=" ">
+	<meta name="description" content=" ">
+	<!-- <link rel="icon" href="img/Micon.png"> -->
+	<meta name="description" content=" ">
+	<title>Mirim Brasil</title>
+	<base href="/">
+
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:200,300,400,500,600,700,800,900|Signika:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="styles/ionicons.css">
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css"/>
+
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src='js/angular-locale_pt-br.js'></script>
+
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/app.css">
+	<link rel="stylesheet" href="styles/responsivo.css">
+</head>
+<body ng-app='mirimAPP'>
+
+	<nav>
+		<ul>
+			<lil><a href='javascript:void(0)'><i class='ion-ios-glasses-outline'></i></a></lil>
+			<lil><a href='javascript:void(0)'><i class='ion-social-twitter'></i></a></lil>
+			<lil><a href='javascript:void(0)'><i class='ion-social-youtube-outline'></i></a></lil>
+			<lil><a href='javascript:void(0)'><i class='ion-social-facebook'></i></a></lil>
+			<lil><a href='javascript:void(0)'><i class='ion-social-instagram-outline'></i></a></lil>
+		</ul>
+	</nav>
+
+	<header class="header-principal">
+		<div class="container">
+			<main class='scroll-click'>
+				<a href="/" class="Heading1 AncoraLogo"><img src="/img/Page 1.svg" class="logo"></a>
+				<!-- <a href="/" class="Heading1 AncoraLogo"><img src="/img/red.svg" class="logo"></a> -->
+
+				<i class="material-icons menu-abrir" aria-hidden="true">reorder</i>
+				<i class="material-icons menu-fechar" aria-hidden="true">close</i>
+
+				<ul class="navbar">
+					<li><a href="/#!/" class="navbar-link Heading1">Inicial</a></li>
+					<li><a href="/#!/mirim" class="navbar-link Heading1">O Mirim Brasil</a></li>
+					<li><a href="/#!/projetos" class="navbar-link Heading1">Projetos</a></li>
+					<li><a href="/#!/articulacoes" class="navbar-link Heading1">Articulação</a></li>
+					<li><a href="/#!/blog" class="navbar-link Heading1">Blog</a></li>
+					<li><a href="/#!/midia" class="navbar-link Heading1">Midioteca</a></li>
+					<li><a href="/#!/contato" class="navbar-link Heading1">Contato</a></li>
+
+					<a href="javascript:void(0)" class='btn-three small btnEnvolva'>Envolva-se</a>
+				</ul>
+			</main>
+		</div>
+	</header>
+
+	<div ng-view></div>
+
+	<footer>
+		<div class='footer-sub'>
+			<div class='box-left'>
+				<h3 class='Display3'>Sitemap</h3>
+				<span>
+					<h4 class='Heading1'>Inicial</h4>
+				</span>
+				<span>
+					<h4 class='Heading1'>O Mirim Brasil</h4>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+				</span>
+				<span>
+					<h4 class='Heading1'>Projetos</h4>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+				</span>
+				<span>
+					<h4 class='Heading1'>Blog</h4>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+				</span>
+				<span>
+					<h4 class='Heading1'>Midioteca</h4>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+				</span>
+				<span>
+					<h4 class='Heading1'>Contato</h4>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+					<a href='javascript:void(0)' class='Heading6'>Item</a>
+				</span>
+			</div>
+			<div class='box-right'>
+				<h3 class='Display3'>Parcerias</h3>
+				<span class='parceiros-box'>
+
+				</span>
+			</div>
+		</div>
+		<div class='footer-credits'>
+			<p class='Display1'>Mirim Brasil © 2018</p>
+			<span class='redes-sociais'>
+				<p class='Display1'>Telefone:  982.263.368  -  Email:  mirim@mirimbrasil.org.br  -  CNPJ:  40.817.819/0001-60 </p>
+			</span>
+			<span class='mangue'>
+				<img src="img/mangue_simbol.svg">
+				<p class='Display4'>Desenvolvido pela
+				Mangue Tecnologia</p>
+			</span>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/slide.js"></script>
+
+</body>
+</html>

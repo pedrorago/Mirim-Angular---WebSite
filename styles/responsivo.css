@@ -1,0 +1,1000 @@
+
+@media (max-width: 1900px)
+{
+	html
+	{
+		 margin:0 auto;			
+ 
+	}
+}
+@media (min-width: 1440px) 
+{
+
+}
+@media (max-width: 1366px) 
+{
+	
+}
+@media(max-width:1024px) 
+{
+	.navbar 
+	{
+		background: #fff;
+		visibility: hidden;
+		opacity: 0;
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		transform: translateY(-100%);
+		width: 30%;
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		border-radius: 0;
+		transition: .2s ease-in-out;
+		z-index: -1;
+		box-shadow: -8px 5px 14px 0 rgba(0, 0, 0, 0.1);
+		transition-delay: 0s
+	}
+	.menu-ativo .navbar 
+	{
+		transform: translateY(0);
+		visibility: visible;
+		opacity: 1;
+		margin-top: 0;
+		left: 0;
+		transition-delay: .1s;
+		z-index: 9999;
+		position: fixed;
+		top: 0;
+		display: flex;
+		height: 100%;
+		width: 100%;
+		margin-top: 7.2em;
+	}
+	.menu-ativo .menu-abrir 
+	{
+		visibility: hidden;
+		opacity: 0
+	}
+	.menu-ativo .menu-fechar 
+	{
+		visibility: visible;
+		opacity: 1
+	}
+	.menu-ativo .navbar li:active {
+		background: #fbf6b2;
+	}
+	.menu-ativo .navbar li 
+	{
+		margin-right: 0;
+		width: 100%;
+		justify-content: center;
+		height: 6.3em;
+	}
+	.menu-ativo .navbar-link 
+	{
+		padding: .3em 0;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	.menu-ativo .minhaContaLink, .menu-ativo .minhaContaLinkDisable 
+	{
+		width: 8em !important;
+		right: 16%;
+		top: -3.6%;
+		height: 6.8em;
+	}
+	.menu-abrir 
+	{
+		color: #D53A0A;
+		font-size: 2em;
+		cursor: pointer;
+		position: absolute;
+		transition:.3s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 80px;
+		height: 100%;
+		right: 6%;
+	}
+	.menu-fechar 
+	{
+		color: #D53A0A;
+		font-size: 2em;
+		cursor: pointer;
+		visibility: hidden;
+		opacity: 0;
+		width: 80px;
+		height: 100%;
+		right:6%;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center
+	}
+	.nav-links 
+	{
+		width: 100%;
+		transition: 1s
+	}
+	nav li 
+	{
+		width: 100%;
+		height: 6em;
+	}
+	.UltimasNoticias-container
+	{
+		justify-content: space-between;
+	}
+	.Noticias-box
+	{
+		width: 44.93%;
+		margin-left: 0;
+	}
+	.footer-credits
+	{
+		width: 83.4%;
+	}
+	.footer-sub
+	{
+		flex-direction: column;
+		height: auto;
+		width: 83.4%;
+	}
+	.footer-sub .box-left
+	{
+		margin-bottom: 2em;
+		width: 100%;
+		justify-content: space-between;
+		height: auto;
+	}
+	.footer-sub .box-left h3
+	{
+		margin-bottom: 2.5em;
+	}
+	.footer-sub .box-right
+	{
+		margin-bottom: 1em;
+		width: 100%;
+		height: auto;
+	}
+	.footer-sub .parceiros-box
+	{
+		margin-top: 0em;
+		height: 6em;
+	}
+	.HomeSkew
+	{
+		width: 87%;
+	}
+	.HomeBlend
+	{
+		right: -20%;
+		width: 15.5em;
+
+	}
+	.Heading2
+	{
+		font-size: 3.3em;
+		line-height: 63px;
+	}
+	.Display1
+	{
+		font-size: .8em;
+	}
+	.btnEnvolva
+	{
+		margin-top: 2em;
+	}
+	.textoMirim
+	{
+		margin-left: 5.2em;
+	}
+	.OMirimLista
+	{
+		margin-left: 9.2em;
+	}
+	.arrows1 
+	{
+		top: 52%;
+		right: -9%;
+	}
+	.arrowLEFT 
+	{
+		left: -9%;
+	}
+	.OMirimLista-container
+	{
+		margin-bottom: 2em;
+	}
+	.CardTexto
+	{
+		width: 90.3%;
+	}
+	.CardsBox
+	{
+		width: 100%;
+		margin-left: 0em;
+	}
+	.CardsContainer
+	{
+		flex-direction: column;
+	}
+	.MirimIMG
+	{
+		margin-left: 7em;
+	}
+	.QuemFazBox
+	{
+		width: 30.4%;
+	}
+	#OMirim, #Projetos, #Redes
+	{
+		height: 42em;
+	}
+	.redes-sociais
+	{
+		height: auto;
+	}
+	.subBlog
+	{
+		width: 83.4%;
+		height: 7em;
+	}
+	#Blogbanner h1
+	{
+		width: 10em;
+		left: 34.2%;
+	}
+	#Blogbanner h2
+	{
+		left: 29.5%;
+	}
+	#Blogbanner .botaozao
+	{
+		left: 24%;
+	}
+	.bibliotecaContainer 
+	{
+		width: 40.063em;
+	}
+	.bibliotecaBody 
+	{
+		width: 90.6%;
+
+	}
+	#Biblioteca main 
+	{
+		width: 100%;
+		justify-content: flex-start;
+		padding: 3em 0em;
+		align-items: center;
+		margin-bottom: -19em;
+
+	}
+	#Biblioteca h3
+	{
+		text-align: center;
+	}
+	.arrows1 
+	{
+		top: -5%;
+		right: 2%;
+	}
+
+	#Artes .arrowBack
+	{
+		right: 11%;
+	}
+	#Midioteca .arrows1 
+	{
+		top: -11%;
+		right: 2%;
+	}
+	#Midioteca .arrowBack
+	{
+		right: 10%;
+	}
+	#ContatoBody main
+	{
+		flex-direction: column;
+	}
+	#ContatoBody .mapaContainer
+	{
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	#ContatoBody .formContato
+	{
+		width: 85%;
+	}
+
+} 
+@media not all and (max-width:1024px) 
+{
+	.menu-abrir,
+	.menu-fechar 
+	{
+		display: none
+	}
+}
+@media(max-width: 768px) 
+{
+	.footer-credits 
+	{
+		width:77.9%;
+		padding-top: .5em;
+	}
+	.footer-sub 
+	{
+		width:77.9%;
+	}
+	.HomeFoto img 
+	{
+		height: 100%;
+	}
+	.Heading2 
+	{
+		font-size: 2.8em;
+		line-height: 57px;
+	}
+	.HomeSkew 
+	{
+		width: 91%;
+	}
+	.HomeSkew h1
+	{
+		left: 29%;
+	}
+	.HomeBlend 
+	{
+		right: -33%;
+	}
+	.container 
+	{
+		padding: 5.000em 3.3em;
+	}
+	.container2 
+	{
+		padding: 5.000em 3.3em;
+	}
+	.header-principal .container 
+	{
+		padding: 0em 3.3em;
+	}
+	.Noticias-box 
+	{
+		width: 47.93%;
+	}
+	.Heading4
+	{
+		font-size: 0.71em;
+	}
+	.footer-credits {
+		flex-direction: column;
+		height: auto;
+	}
+	.footer-credits span
+	{
+		margin-top:.5em;
+	}
+	.mangue
+	{
+		margin-bottom: 1em;
+	}
+	#OMirim, #Redes
+	{
+		height: 32em;
+	}
+	.Heading2 
+	{
+		font-size: 2.4em;
+		line-height: 44px;
+	}
+	.MarcaDagua
+	{
+		width: 22em !important;
+	}
+	.textoMirim 
+	{
+		margin-left: 3em;
+		font-size: 1.1em;
+	}
+	.arrows1 
+	{
+		top: -4%;
+		right: 0%;
+	}
+	.arrowLEFT 
+	{
+		left: 0%;
+	}
+	.QuemFazContainer
+	{
+		justify-content: center;
+		padding-top: 1em;
+	}
+	.QuemFazBox 
+	{
+		width: 46.4%;
+	}
+	.MirimIMG 
+	{
+		margin-left: 3em;
+		width: 35.438em;
+	}
+	.descProjetos-box 
+	{
+		width: 48.8%;
+	}
+	.imgProjetos-box
+	{
+		width: 46.2%;
+	}
+	.Heading8 
+	{
+		font-size: 1.8em;
+		line-height: 36px;
+	}
+	.descProjetos-box a
+	{
+		font-size: 18px;
+		width: 180px;
+		margin-top: 3.9em;
+		height: 38px;
+
+	}
+	#Projetos
+	{
+		height: 32em;
+	}
+	.container2 
+	{
+		padding: 5.000em 3.3em;
+	}
+	.subBlog {
+		width: 86.2%;
+		height: 7em;
+		padding: .5em 3.3em;
+	}
+	.Heading1 {
+		/* -size: 17px; */
+		font-size: 1em;
+	}
+	.subBlog li
+	{
+		margin-left: .5em;
+	}
+	.subBlog li:nth-child(8)
+	{
+		margin-left: .5em;
+	}
+	.subBlog li:nth-child(7)
+	{
+		margin-left: 0;
+	}
+	#Blogbanner .HomeSkew 
+	{
+		width: 88%;
+	}
+	#Blogbanner h1 
+	{
+		width: 10em;
+		left: 35.7%;
+	}
+	.arrows1 
+	{
+		right: 2%;
+	}
+
+	#Midioteca .arrows1 
+	{
+		right: 2%;
+	}
+	#ContatoBody .formContato
+	{
+		width: 81%;
+	}
+	#SingleBody main
+	{
+		width: 85%;
+	}
+}
+@media(max-width: 425px) 
+{
+
+	.footer-sub, .footer-credits 
+	{
+		width: 84.9%;
+		padding: 0em 2em;
+	}
+	.container 
+	{
+		padding: 3em 2em;
+	}
+	.container2 
+	{
+		padding: 3em 2em;
+	}
+	.header-principal .container 
+	{
+		padding: 0em 2em;
+	}
+	.footer-sub .box-left span 
+	{
+		margin-top: -1.1em;
+		margin-bottom: 3em;
+	}
+	.footer-sub .box-left h3 
+	{
+		margin-top: 1em;
+	}
+	.footer-credits
+	{
+		padding-top: 1em;
+	}
+	.Display1 
+	{
+		font-size: .78em;
+	}
+	.footer-credits p, .footer-credits i, .footer-credits a, nav i, nav a 
+	{
+		text-align: center;
+	}
+	.Noticias-box {
+		width: 100%;
+	}
+	#HomeBanner
+	{
+		height: 26em;
+	}
+	.MarcaDagua 
+	{
+		width: 16em !important;
+		left: 25%;
+	}
+	.HomeSkew h1 
+	{
+		left: 38%;
+	}
+	.Heading2 
+	{
+		font-size: 1.7em;
+		line-height: 32px;
+	}
+	.HomeSkew 
+	{
+		width: 127%;
+	}
+	.HomeBlend
+	{
+		display: none;
+	}
+	.Box-ScrollDown
+	{
+		width: 50px;
+		height: 50px;
+		bottom: 6%;
+	}
+	.ScrollDown
+	{
+		font-size: 22px;
+	}
+	nav ul
+	{
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	.footer-sub .box-left
+	{
+		justify-content: flex-start;
+	}
+	#OMirim, #Redes
+	{
+		height: 17em;
+	}
+	.MarcaDagua 
+	{
+		width: 12em !important;
+	}
+	.Heading2 
+	{
+		font-size: 1.5em;
+	}
+	.textoMirim 
+	{
+		margin-left: 0em;
+		width: auto;
+	}
+
+	.OMirimLista 
+	{
+		margin-left: 0em;
+	}
+	.OMirimLista-container 
+	{
+		margin-bottom: 4em;
+	}
+	.SlideMirim
+	{
+		width: 23.7em;
+	}
+	#OQueQueremos h2, #ComoAtuamos h2, #OQueQueremos2 h2, #QuemFaz h2{
+		color: #D53A0A;
+		margin-left: 0em;
+	}
+	.Heading1 {
+
+		font-size: .9em;
+	}
+	.QuemFazBox 
+	{
+		width: 100%;
+	}
+	.MirimIMG 
+	{
+		margin-left: 0em;
+		width: 23.438em;
+	}
+	#Projetos 
+	{
+		height: 17em;
+	}
+	#ProjetosContainer h2 
+	{
+		margin-left: 0em;
+	}
+	.projetosBox:nth-child(2n) 
+	{
+		flex-direction: column;
+	}
+	.projetosBox
+	{
+		flex-direction: column;
+		height: auto;
+	}
+	.imgProjetos-box 
+	{
+		width: 100%;
+		height: 16em;
+	}
+	.imgProjetos-box img 
+	{
+		height: 100%;
+		width: auto;
+	}
+	.descProjetos-box 
+	{
+		width: 100%;
+		height: 93%;
+	}
+	#Blogbanner .HomeSkew {
+		width: 100%;
+	}
+	#Blogbanner h1 
+	{
+		width: 10em;
+		left: 43.2%;
+		top: 49%;
+	}
+	#Blogbanner h2 
+	{
+		left: 39.7%;
+	}
+	#Blogbanner .botaozao
+	{
+		left: 31.7%;
+		padding: .4em 3em;
+	}
+	.Display6
+	{
+		font-size: 1em;
+	}
+	.subBlog 
+	{
+		width: 71.8%;
+		height: auto;
+		padding: .5em 3.3em;
+		justify-content: flex-start;
+	}
+	.subBlog li
+	{
+		margin-left: 0em;
+		width: 45%;
+		margin-right: .9em;
+		height: 4em;
+	}
+	.subBlog li:nth-child(8)
+	{
+		margin-left: 0em;
+	}
+	#Blogbanner
+	{
+		height: 23.5em;
+	}
+	.bibliotecaContainer 
+	{
+		width: 96%;
+	}
+
+	.bibliotecaBody 
+	{
+		width: 84.2%;
+	}
+	.bibliotecaHead
+	{
+		height: 3.688em;
+	}
+	.bibliotecaHead .Heading1 
+	{
+		font-size: .7em;
+		margin-top: 1.8em;
+	}
+	.bibliotecaBody .Display1 
+	{
+		font-size: .7em;
+	}
+	.bibliotecaBox
+	{
+		height: 4.75em;
+	}
+	.Heading3 
+	{
+		font-size: 2.5em;
+	}
+	#Biblioteca h2
+	{
+		margin-top: 0em;
+	}
+	.Display5 
+	{
+		font-size: 1.1em;
+	}
+	#Artes .arrowBack {
+		right: 22%;
+	}
+	.videosConteiner
+	{
+		flex-direction: column;
+	}
+	.videoBox, .videoSlide
+	{
+		width: 100%;
+	}
+	#Midioteca .arrowBack {
+		right: 20%;
+	}
+	#ContatoBody form
+	{
+		padding: 2em;
+	}
+	#ContatoBanner
+	{
+		height: 17.1em;
+	}
+}
+@media(max-width: 375px) 
+{
+	.footer-sub, .footer-credits 
+	{
+		width: 82.8%;
+		padding: 0em 2em;
+	}
+	.SlideMirim 
+	{
+		width: 21.7em;
+	}
+	.SubMenu ul
+	{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.SubMenu
+	{
+		height: 3.188em;
+	}
+	#OMirim, #Redes
+	{
+		height: 15em;
+	}
+	.OMirim-container h1 
+	{
+		font-size: 1.2em;
+		line-height: 27px;
+	}
+	#QuemSomos h2
+	{
+		margin-left: 0em;
+	}
+	.OMirimLista
+	{
+		margin-left: 0em;
+		width: auto;
+	}
+	.SlideMirim 
+	{
+		width: 19.7em;
+	}
+	.OMirimLista 
+	{
+		margin-left: 0em;
+		width: auto;
+	}
+	.MirimIMG 
+	{
+		margin-left: 0em;
+		width: 20em;
+	}
+	.MirimIMG img 
+	{
+		height: 100%;
+		width: auto;
+	}
+
+	.SubMenu li 
+	{
+		height: 50%;
+		width: 6.95em;
+	}
+	#Projetos 
+	{
+		height: 15em;
+	}
+	.descProjetos-box 
+	{
+		width: 90%;
+		height: 93%;
+	}
+	#Projetos
+	{
+		height: 13em;
+	}
+	.Heading3 
+	{
+		font-size: 2.5em;
+	}
+	.container2 
+	{
+		padding: 3em 2em;
+	}
+
+	#Blogbanner .HomeSkew
+	{
+		width: 127%;
+	}
+	.bibliotecaBody 
+	{
+
+		width: 81.9%;
+	}
+	.Heading1
+	{
+		line-height: 13px;
+	}
+	.bibliotecaBox 
+	{
+		height: 6.75em;
+	}
+	#Midioteca h1
+	{
+		color: #D53A0A;
+		margin-top: 1em;
+	}
+	.Heading3 {
+		font-size: 1.5em;
+	}
+	#ContatoBanner
+	{
+		height: 15.1em;
+	}
+	#SingleBody .SingleContainer h1 {
+
+		font-size: 2em;
+		line-height: 36px;
+	}
+	.HomeSkew h1
+	{
+		font-size: 1.1em;
+		line-height: 25px;
+	}
+
+}	
+
+@media(max-width: 320px) 
+{
+	.footer-sub, .footer-credits 
+	{
+		width: 82.8%;
+		padding: 0em 2em;
+	}
+	#HomeBanner 
+	{
+		height: 18em;
+	}
+	.HomeSkew h1 
+	{
+		left: 45%;
+	}
+	.Heading3 
+	{
+		font-size: 2.2em;
+
+	}
+	.container {
+		padding: 2em 1em;
+	}
+	.header-principal .container {
+		padding: 0em 1em;
+	}
+	nav ul {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	.footer-sub, .footer-credits {
+		width: 89.9%;
+		padding: 0em 1em;
+	}
+	.SlideMirim 
+	{
+
+		width: 18em;
+	}
+	.MirimIMG 
+	{
+		width: 18em;
+	}
+	#OMirim, #Redes
+	{
+		height: 13em;
+	}
+	.OMirim-container h1 
+	{
+		font-size: 1.1em;
+	}
+	.SubMenu li 
+	{
+		width: 5.95em;
+	}
+	#OMirim .Box-ScrollDown 
+	{
+		width: 30px;
+		height: 30px;
+		bottom: 6%;
+	}
+	.ScrollDown 
+	{
+		font-size: 14px;
+	}
+	.container2 {
+		padding: 2em 1em;
+	}
+	#Blogbanner .HomeSkew 
+	{
+		width: 138%;
+	}
+	#Blogbanner
+	{
+		overflow:hidden;
+	}
+	.bibliotecaBody 
+	{
+		width: 80.9%;
+	}
+	#Biblioteca main
+	{
+		margin-bottom: -13em;
+	}
+	#ContatoBanner
+	{
+		height: 15.1em;
+	}
+	#ContatoBody form
+	{
+		padding: 2em 1em;
+		width: 90%;
+	}
+}

@@ -1,0 +1,19 @@
+
+
+<a href='/#!/single' class='Noticias-box' ng-repeat="ultimasNoticia in ultimasNoticias">
+	<div class='Noticias-img'>
+		<img ng-src="{{ultimasNoticia.img}}">
+	</div>
+	<div class='Noticias-descricao'>
+		<p class='Heading4 Noticia-boxCategoria'>{{ultimasNoticia.tag}}</p>
+		<h3 class='Heading5 Noticia-boxTitulo'>{{ultimasNoticia.titulo}}</h3>
+		<p class='Display1 Noticia-boxTexto'>{{ultimasNoticia.descricao}}</p>
+
+		<span>
+			<i class="material-icons">share</i>
+			<p class='Heading4 HeadingDoSpan'>COMPARTILHAR</p>
+			<i class='ion-android-calendar'></i>
+			<p class='Heading4 HeadingDoSpan'>{{ultimasNoticia.data | date:' EEE dd/MM/yyyy HH:mm'}}</p>
+		</span>
+	</div>
+</a>
